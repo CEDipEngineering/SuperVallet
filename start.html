@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Portfólio de Engenharia</title>
+  <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="assets/css/reset.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/fonts.css" rel="stylesheet">
+  <link href="assets/css/index.css" rel="stylesheet">
+  <script src="assets/js/codes.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/index.js"></script>
+
+
+  <meta charset="utf-8">
+  <meta name = "viewport" content = "width = device-width, initial-scale = 1">  
+</head>
+
+<figure class="cover">
+  <img class="cover-img" src="assets/img/loading.gif">
+  <p class="cover-text">
+    Olá, por favor aguarde enquanto preparamos tudo para você!
+  </p>
+</figure>
+
+<body>
+  <main class = "main">
+    <header class="header">
+      <h1 class = "main-title">
+        PORTFÓLIO DE ENGENHARIA
+      </h1>
+    </header>
+
+
+    <div class = "sub-header">
+      <img class = "sub-header-img" src= "assets/img/Ben Affleck.png" alt="Ator Ben Affleck (Batman) triste.">
+      <div class="sub-header-text">
+        <p>
+          Olá, meu nome é Ben Affleck e sou engenheiro mecânico formado pelo Insper com dupla titulação em controle e automação.       
+        </p>
+      </div>
+    </div>
+
+
+
+    <h1 class = "menu-title">
+      Categorias:
+    </h1> 
+
+    <ul class="menu">
+
+      {{#each portfolio}}
+      <li class="menu-item">
+        <img class="menu-item-image" src="assets/img/{{@key}}.png" alt="Ator Ben Affleck (Batman) triste.">
+        <div>
+          <a href = "categoria.html?id={{@key}}">
+            <p class="menu-item-title">
+              {{this.main-title}}
+            </p>
+          </a>
+          <p class = "menu-item-text">
+            {{this.sub-header}}
+          </p>
+        </div>
+      </li>
+      {{/each}}
+
+    </ul>
+  </main>
+</body>
+</html>

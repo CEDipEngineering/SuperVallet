@@ -1,59 +1,17 @@
-/*
-#000000 - BLACK
-#ffffff - WHITE
-#797b80 - GRAY
-#d60c07 - RED
-#cfaa34 - GOLD
-*/
-
-.header {
+.body{
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    margin: auto;
 }
 
-.sub-header {
+
+.iframe {
+    width: 1px;
+    height: 1px;
 }
 
-.sub-header-img {
+.button {
+    margin-top: 10%;
+    align-self: center;
 }
-
-.main-title {
-}
-
-.main-body {
-}
-
-.menu-item {
-}
-
-.menu {
-}
-
-.main-body-subtitle {
-}
-
-.menu-title {
-}
-
-.menu-item-title {
-}
-
-.menu-item-image {
-}
-
-.menu-item-title {
-}
-
-.main{
-}
-
-.menu-item-title, .main-title, .main-body-subtitle {  
-}
-
-.sub-header {
-}
-
-.sub-header-img {
-}
-
-.home-button{
-}
-

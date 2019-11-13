@@ -1,11 +1,12 @@
 
 /*
 
-$darkgreen: #36B348;
-$green: #33E87F; 
-$cyan: #45FFC4;
-$bluwhite: #DAF5F3;
-$blu: #38D7FF;
+$red: ##eb3e00;
+$green: #00bf3d; 
+$blu: #1900eb;
+$cyan: #009fff;
+$black: #000;
+$white: #FFF;
 
 font-family: 'Roboto Slab', serif;
 font-family: 'Open Sans', sans-serif;
@@ -58,7 +59,7 @@ body {
   flex-flow: row wrap;
   justify-content: space-between; 
   padding: 0.6rem;
-  background-color: #33E87F;
+  background-color: #1515af;
 }
 
 .main-button-top-img, .main-button-bottom-img {
@@ -70,7 +71,7 @@ body {
 
 .main-button-top {
   display: flex;
-  background-color: #33E87F;
+  background-color: #00bf3d;
   flex-flow: column nowrap;
   justify-content: flex-end;
   margin: 40% auto auto auto;
@@ -85,7 +86,7 @@ body {
 
 .main-button-bottom {
   display: flex;
-  background-color: #38D7FF;
+  background-color: #fb1e00;
   flex-flow: column nowrap;
   margin: 0 auto;
   width: 16rem;

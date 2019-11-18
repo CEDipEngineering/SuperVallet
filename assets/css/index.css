@@ -7,11 +7,13 @@
 
 
 .iframe {
-    width: 1px;
-    height: 1px;
+    width: 5px;
+    height: 5px;
 }
 
 .button {
-    margin-top: 10%;
+    margin-top: 25%;
     align-self: center;
+    font-size: 2rem;
+    width: 50%;
 }

@@ -1,0 +1,65 @@
+
+/*
+
+$deepblu: #0037ff;
+$seablu: #005eeb; 
+$poolblu: #0095ff;
+$skyblu: #00b4eb;
+$cyan: #01f3ff;
+$black: #000;
+$white: #FFF;
+
+font-family: 'Roboto Slab', serif;
+font-family: 'Open Sans', sans-serif;
+
+
+*/
+
+
+body {
+  background-color: rgba(250, 243, 255, 0.3);
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.cover {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  color: #000;
+  margin-top: 15%; 
+}
+
+.cover-img{
+  max-width: 12rem;
+}
+
+.cover-text {
+  font-size: 0.7rem;
+  max-width: 35rem; 
+}
+
+.hidden {
+  display: none;
+}
+
+.menu, .help{
+  max-width: 3rem;
+}
+
+.logo {
+  margin-top: 5px; 
+  width: 4rem;
+}
+
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; 
+  padding: 0.6rem;
+  background-color: #0037ff;
+}
+

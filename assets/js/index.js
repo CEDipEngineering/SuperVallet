@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
   setTimeout(function(){
     doc.classList.remove('hidden');
     cover.classList.add('hidden');
-  }, 0);
+  }, 1200);
 
   console.log('Time delay complete');
 

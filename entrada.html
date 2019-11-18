@@ -1,36 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-  <title>Entrada</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab&display=swap" rel="stylesheet">
-  <link href="assets/css/reset.css" rel="stylesheet">
-  <link href="assets/css/entrada.css" rel="stylesheet">
-  <script src="assets/js/index.js"></script>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name = "viewport" content = "width = device-width, initial-scale = 1">  
+    <title>Entrada</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="assets/css/reset.css" rel="stylesheet">
+    <link href="assets/css/entrada.css" rel="stylesheet">
+    <script src="assets/js/index.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
 </head>
 
 <figure class="cover">
-  <img class="cover-img" src="assets/img/loading.gif">
-  <p class="cover-text">
-    Olá, por favor aguarde enquanto preparamos tudo para você!
-  </p>
+    <img class="cover-img" src="assets/img/loading.gif">
+    <p class="cover-text">
+        Olá, por favor aguarde enquanto preparamos tudo para você!
+    </p>
 </figure>
-<main class = 'main'>
-  <header class="header">
-    <img src="assets/img/help.png" class="help">
-    <img src="assets/img/logo.png" class="logo">
-    <img src="assets/img/menu.png" class="menu">
-  </header>
-  <div class="main-body">
-    <input type="text" name="placa">
-    <input type="text" name="numero">
-    <figure class="qr-fig">
-      <img class = "qr-code"src="assets/img/qr.png">
-    </figure>
-  </div>
+<main class='main'>
+    <header class="header">
+        <img src="assets/img/help.png" class="help">
+        <img src="assets/img/logo.png" class="logo">
+        <img src="assets/img/menu.png" class="menu">
+    </header>
+    <div class="main-body">
+        <p class="field1">
+            Placa:
+            <input type="text" name="placa" class="input1">
+        </p>
+        <p class="field2">
+            Telefone:
+            <input type="text" name="fone" class="input2">
+        </p>
+        <figure class="qr-fig">
+            <img class="qr-code" src="assets/img/qr.png">
+        </figure>
+        <figure class="preview">
+            <p class="preview-text">
+                CARRO | MOTO
+            </p>
+            <img src="assets/img/car-topdown.png" class="car-view">
+        </figure>
+        <p class="field3">
+            Observações:
+            <input type="text" name="obs">
+            <a href="success.html"><img src="assets/img/advance.png" class="checkmark"></a>
+        </p>
+    </div>
 </main>
 </body>
+
 </html>

@@ -15,107 +15,107 @@ font-family: 'Open Sans', sans-serif;
 */
 
 body {
-  background-color: rgba(250, 243, 255, 0.3);
-  font-family: 'Open Sans', sans-serif;
+    background-color: rgba(250, 243, 255, 0.3);
+    font-family: 'Open Sans', sans-serif;
 }
 
 .cover {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
-  color: #000;
-  margin-top: 15%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    color: #000;
+    margin-top: 15%;
 }
 
 .cover-img {
-  max-width: 12rem;
+    max-width: 12rem;
 }
 
 .cover-text {
-  font-size: 0.7rem;
-  max-width: 35rem;
+    font-size: 0.7rem;
+    max-width: 35rem;
 }
 
 .hidden {
-  display: none;
+    display: none;
 }
 
 .menu,
 .help {
-  max-width: 3rem;
+    max-width: 3rem;
 }
 
 .logo {
-  margin-top: 5px;
-  width: 4rem;
+    margin-top: 5px;
+    width: 4rem;
 }
 
 .header {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  padding: 0.6rem;
-  background-color: #0037ff;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0.6rem;
+    background-color: #0037ff;
 }
 
 .qr-fig {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-around;
-  align-content: center;
-  padding: 1.5rem 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 1.5rem 0;
 }
 
 .qr-code {
-  max-width: 60%;
+    max-width: 60%;
 }
 
 .field1,
 .field2,
 .field3 {
-  margin: 1rem;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-content: center;
+    margin: 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .checkmark {
-  max-width: 2rem;
-  align-self: center;
-  border: solid 1px;
-  border-color: #0037ff;
-  border-radius: 15%;
+    max-width: 2rem;
+    align-self: center;
+    border: solid 1px;
+    border-color: #0037ff;
+    border-radius: 15%;
 }
 
 .car-view {
-  margin: 4rem auto;
-  width: 269px;
-  height: 195px;
+    margin: 4rem auto;
+    width: 269px;
+    height: 195px;
 }
 
 .defaultCanvas0 {
-  margin: 0; 
+    margin: 0;
 }
 
 .preview {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-around;
-  align-content: center;
-  padding: 0.6rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 0.6rem;
 }
 
 .preview-text {
-  margin: 1rem auto;
-  border: solid 1px;
-  border-radius: 1rem;
-  padding: 1rem;
-  background-image: linear-gradient(to right, #01f3ff 50%, #005eeb 50%) ; 
+    margin: 1rem auto;
+    border: solid 1px;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-image: linear-gradient(to right, #01f3ff 50%, #005eeb 50%);
 }
 
 .field3 {
-   margin-top: 20%;
+    margin-top: 8%;
 }

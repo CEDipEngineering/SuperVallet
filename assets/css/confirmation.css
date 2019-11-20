@@ -60,38 +60,37 @@ body {
     background-color: #0037ff;
 }
 
-.qr-code {
+.car-pic {
     max-width: 90%;
+    margin: 2rem 0;
 }
 
-.qr-fig {
+.content {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
-    align-content: center;
     margin: 1rem;
-    padding: 0.5rem;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.placa-field {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    margin: 1rem;
-    padding: 1rem;
-    padding-top: 0.1rem;
-    margin-top: 0;
-}
-
-.checkmark {
+.checkmark,
+.nope {
     max-width: 2rem;
     align-self: center;
     border: solid 1px;
     border-color: #0037ff;
     border-radius: 15%;
+    padding: 15px;
 }
 
-.insira-placa-text {
-    margin: 1rem;
-    margin-top: 40%;
+.buttons {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 2rem;
+    padding: 3rem;
+    justify-content: space-between;
+}
+
+.text {
+    margin: 0.5rem;
 }

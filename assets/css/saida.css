@@ -15,8 +15,8 @@ font-family: 'Open Sans', sans-serif;
 */
 
 body {
-    background-color: rgba(250, 243, 255, 0.3);
-    font-family: 'Open Sans', sans-serif;
+    background-color: #DDD;
+    font-family: 'Roboto Slab', serif;
 }
 
 .cover {
